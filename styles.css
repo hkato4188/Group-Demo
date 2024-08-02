@@ -45,3 +45,45 @@ nav a:hover {
     background-color: #f0f0f0;
     /* Hover effect */
 }
+
+.medal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.medal-table th,
+.medal-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.medal-table th {
+    background-color: #333;
+    color: white;
+}
+
+.medal-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.medal-table .gold {
+    background-color: #ffd700;
+    color: #000;
+    font-weight: bold;
+}
+
+.medal-table .silver {
+    background-color: #c0c0c0;
+    color: #000;
+    font-weight: bold;
+}
+
+.medal-table .bronze {
+    background-color: #cd7f32;
+    color: #000;
+    font-weight: bold;
+}
