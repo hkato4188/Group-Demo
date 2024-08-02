@@ -1,0 +1,47 @@
+.container {
+    background-color: cornflowerblue;
+}
+
+
+nav ul {
+    list-style: none;
+    /* Remove default list styling */
+    display: flex;
+    /* Use flexbox for horizontal layout */
+
+
+    align-items: center;
+    /* Vertically center items */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+nav li {
+    margin: 10px 10px;
+    /* Add spacing between buttons */
+
+}
+
+nav a {
+    text-decoration: none;
+    /* Remove underline from links */
+    padding: 10px 20px;
+    /* Button padding */
+    border: 1px solid #ccc;
+    /* Button border */
+    border-radius: 25px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* Button background */
+    color: #333;
+    /* Text color */
+
+    /* Display as inline-block for button appearance */
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    /* Hover effect */
+}
